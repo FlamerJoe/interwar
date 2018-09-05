@@ -12,7 +12,12 @@ state= {
 	history= {
 		add_core_of = GRE
 		add_core_of = OTT
+<<<<<<< HEAD
 		owner = OTT
+=======
+		add_core_of = TUR
+		owner = ENG
+>>>>>>> ed6b51bf067bcf0016274f72d38907d41393f2f4
 		victory_points = {
 			9833 20
 		}
@@ -26,7 +31,11 @@ state= {
 				naval_base = 8
 			}
 		}
+<<<<<<< HEAD
 		add_core_of = TNM
+=======
+		add_core_of = TUR
+>>>>>>> ed6b51bf067bcf0016274f72d38907d41393f2f4
 	}
 	provinces=
 	{

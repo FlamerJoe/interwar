@@ -9,6 +9,7 @@
  OTT_neutrality_DEF:1 "the Ottoman Empire"
  OTT_communism:0 "Socialist Republic of Germany"
  OTT_communism_DEF:0 "the Socialist Republic of Germany"
+<<<<<<< HEAD
  OTT_fascism_ADJ:0 "Ottomans"
  OTT_democratic_ADJ:0 "Ottomans"
  OTT_neutrality_ADJ:0 "Ottomans"
@@ -28,6 +29,14 @@
  TNM_communism_ADJ:0 "Turks"
 
  
+=======
+ OTT_fascism_ADJ:0 "Turks"
+ OTT_democratic_ADJ:0 "Turks"
+ OTT_neutrality_ADJ:0 "Turks"
+ OTT_communism_ADJ:0 "Turks"
+
+
+>>>>>>> ed6b51bf067bcf0016274f72d38907d41393f2f4
 
 
 

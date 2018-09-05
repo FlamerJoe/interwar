@@ -7,11 +7,19 @@ state={
 	state_category = rural
 
 	history={
+<<<<<<< HEAD
 		owner = TNM
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = TNM
+=======
+		owner = OTT
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TUR
+>>>>>>> ed6b51bf067bcf0016274f72d38907d41393f2f4
 		add_core_of = OTT
 	}
 

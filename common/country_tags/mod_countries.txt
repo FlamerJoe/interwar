@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 OTT = "countries/Ottoman_Empire.txt"
 TNM = "countries/Turkish_National_Movement.txt"
+=======
+OTT = "countries/Ottoman_Empire.txt"
+>>>>>>> ed6b51bf067bcf0016274f72d38907d41393f2f4
