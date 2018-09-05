@@ -1,0 +1,2 @@
+OTT = "countries/Ottoman_Empire.txt"
+TNM = "countries/Turkish_National_Movement.txt"
