@@ -11,6 +11,7 @@ state={
 
 	history={
 		owner = TNM
+		
 		victory_points = {
 			11747 10 
 		}

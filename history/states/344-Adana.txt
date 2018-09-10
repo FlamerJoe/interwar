@@ -21,8 +21,9 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = OTT
 		add_core_of = TNM
+		add_core_of = OTT
+		add_core_of = FRA
 	}
 
 	provinces={

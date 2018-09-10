@@ -1,4 +1,3 @@
-
 state={
 	id=230
 	name="STATE_230"
@@ -15,6 +14,8 @@ state={
 
 		}
 		add_core_of = ARM
+		add_core_of = BSH
+		add_core_of = WMM
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

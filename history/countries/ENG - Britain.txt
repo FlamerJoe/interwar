@@ -4,6 +4,7 @@ oob = "ENG_1936"
 
 set_research_slots = 4
 puppet = OTT
+puppet = KWT
 set_stability = 0.6
 set_war_support = 0.1
 
@@ -84,6 +85,11 @@ if = {
 	}
 	set_autonomy = {
 		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NFL
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
@@ -250,6 +256,7 @@ add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
+add_to_faction = NFL
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
