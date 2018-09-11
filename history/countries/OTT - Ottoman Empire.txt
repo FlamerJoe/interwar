@@ -1,6 +1,6 @@
-﻿capital = 348
+﻿capital = 341
 
-# oob = "TUR_1936"
+ oob = "OTT_1919"
 
 set_research_slots = 3
 
@@ -113,15 +113,13 @@ set_politics = {
 set_convoys = 20
 set_stability = 0.55
 
-# 1939.1.1 = {
 
-}
 
 # Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 		
 create_country_leader = {
-	name = "VI. Mehmed"
-	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	name = "Mehmed VI."
+	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
 	picture = "gfx/leaders/OTT/Portrait_VI._Mehmed.dds"
 	expire = "1965.1.1"
 	ideology = despotism

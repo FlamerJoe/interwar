@@ -1,0 +1,43 @@
+﻿add_namespace = tnm
+
+#Template
+
+country_event = {
+    id = tnm.1
+	title = tnm.1.t
+	desc = tnm.1.d
+	picture = "GFX_report_event_tnm1"
+	
+	
+	
+	fire_only_once = yes
+
+	
+	trigger = { #what you need to be true, in order for event to fire_only_once
+   tag = TNM
+   num_divisions < 1
+}
+	
+	option = {
+	   name = tnm.1.a
+    			GRE = { transfer_state = 340 }
+				GRE = { transfer_state = 765 }
+				OTT = { transfer_state = 348 }
+				OTT = { transfer_state = 355 }
+				OTT = { transfer_state = 356 }
+				GRE = { transfer_state = 339 }
+				ITA = { transfer_state = 342 }
+				ITA = { transfer_state = 343 }
+				ITA = { transfer_state = 345 }
+				ITA = { transfer_state = 346 }
+				FRA = { transfer_state = 344 }
+				FRA = { transfer_state = 349 }
+				FRA = { transfer_state = 350 }
+				ENG = { transfer_state = 352 }
+				ARM = { transfer_state = 353 }
+				ARM = { transfer_state = 354 }
+				OTT = { transfer_state = 347 }
+				OTT = { transfer_state = 49 }
+				OTT = { transfer_state = 347 }
+    }
+}

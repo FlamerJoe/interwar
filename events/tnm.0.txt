@@ -1,0 +1,45 @@
+﻿add_namespace = tnm
+
+#Template
+
+country_event = {
+    id = tnm.0
+	title = tnm.0.t
+	desc = tnm.0.d
+	picture = "GFX_report_event_tnm0"
+	
+	
+	fire_only_once = yes
+
+	
+	trigger = { #what you need to be true, in order for event to fire_only_once
+	has_start_date > 1918.01.01
+	tag = TNM
+	}
+	
+	option = {
+	   name = tnm.0.a
+ declare_war_on = {
+    target = GRE
+    type = annex_everything
+   }
+   declare_war_on = {
+    target = ENG
+    type = annex_everything
+   }
+  declare_war_on = {
+    target = ITA
+    type = annex_everything
+   } 
+   declare_war_on = {
+    target = FRA
+    type = annex_everything
+   } 
+    declare_war_on = {
+    target = ARM
+    type = annex_everything
+   }
+	#what the option will do
+	}
+
+}

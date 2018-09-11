@@ -1,0 +1,83 @@
+﻿division_template = {
+	name = "Kuvay-ı Milliye"
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+#
+	}
+}
+units = {
+	division= {	
+        name = "1. Kolordu"
+		location = 11747
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+	division = {
+	    name = "2. Kolordu"
+		location = 11860
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+		division = {
+	    name = "3. Kolordu"
+		location = 6808
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+			division = {
+	    name = "4. Kolordu"
+		location = 890
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+			division = {
+	    name = "5. Kolordu"
+		location = 904
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+			division = {
+	    name = "6. Kolordu"
+		location = 6871
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+			division = {
+	    name = "7. Kolordu"
+		location = 3983
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+			division = {
+	    name = "8. Kolordu"
+		location = 3876
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+			division = {
+	    name = "9. Kolordu"
+		location = 3890
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+			division = {
+	    name = "10. Kolordu"
+		location = 9860
+		division_template = "Kuvay-ı Milliye"
+		start_experience_factor = 0.3
+	}
+}

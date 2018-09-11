@@ -1,0 +1,27 @@
+state={
+	id=765
+	name="STATE_765"
+			resources={
+		aluminium=20.000
+		chromium=5.000
+	}
+	
+	state_category = rural
+	history = {
+
+	
+	owner = GRE
+	add_core_of = TNM
+	add_core_of = OTT
+	buildings = {
+	infrastructure = 5
+	arms_factory = 1
+	industrial_complex = 1
+	}
+	}
+	provinces={
+		849 922 3879 3893 6895 11842 
+	}
+	manpower= 500000
+	buildings_max_level_factor=1.000
+}
