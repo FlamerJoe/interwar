@@ -1,0 +1,24 @@
+
+ideas = {
+
+	country = {
+		ITA_hyper_inflation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.25
+			}
+			rule = {
+				#
+			}
+		}

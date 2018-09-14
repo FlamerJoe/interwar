@@ -1,0 +1,213 @@
+focus_tree = {
+	id = italian_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOI
+		}
+	}
+	default = no
+	focus = {
+		id = Broken_Promises
+		text = Broken_Promises
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		x = 11
+		y = 0
+			prerequisite = {
+					
+				}
+			completion_reward = {
+					add_ideas = { vittoria_mutilata }
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = newfocus_1
+		text = Rehabilitate_Economy
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		x = 21
+		y = 0
+			completion_reward = {
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = newfocus_7
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10,00
+		x = 34
+		y = 0
+
+	}
+	focus = {
+		id = Question_of_Albania
+		text = Question_of_Albania
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		prerequisite = {
+			focus = Broken_Promises
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = Withdraw_from_Albania
+		text = Withdraw from Albania
+		icon = GFX_goal_tripartite_pact
+		cost = 10,00
+		prerequisite = {
+			focus = Question_of_Albania
+		}
+		mutually_exclusive = {
+			focus = Vlato_War
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = Vlato_War
+		text = Vlato_War
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10,00
+		prerequisite = {
+			focus = Question_of_Albania
+		}
+		mutually_exclusive = {
+			focus = Withdraw_from_Albania
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = March_On_Rome
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = Broken_Promises
+			has_country_flag = mor
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = Il_Re_soldato
+		text = Il_Re_soldato
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 1,00
+		prerequisite = {
+			focus = March_On_Rome
+			has_country_flag = king
+		}
+		mutually_exclusive = {
+			focus = Go_With_Mussolini
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = Go_With_Mussolini
+		text = Go_With_Mussolini
+		icon = GFX_focus_ger_assassinate_mussolini
+		cost = 1,00
+		prerequisite = {
+			focus = March_On_Rome
+			has_country_flag = mor
+		}
+		mutually_exclusive = {
+			focus = Il_Re_soldato
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_2
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_1
+		}
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = newfocus_4
+		icon = GFX_goal_generic_construction2
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_2
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_3
+		icon = GFX_goal_generic_construction
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_1
+		}
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = newfocus_8
+		icon = GFX_focus_research
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_3
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_5
+		icon = GFX_focus_generic_industry_3
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_4
+		}
+		prerequisite = {
+			focus = newfocus_8
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_9
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_7
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = newfocus_6
+		icon = GFX_goal_generic_production
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_5
+		}
+		x = 21
+		y = 4
+
+	}
+}

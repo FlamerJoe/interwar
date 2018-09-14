@@ -1,0 +1,43 @@
+﻿add_namespace = dzg
+
+#Template
+
+country_event = {
+    id = dzg.0
+	title = dzg.0.t
+	desc = dzg.0.d
+	picture = "GFX_report_event_tnm0"
+	
+	
+ mean_time_to_happen = {
+	    days = 1
+    }
+	
+	
+   is_triggered_only = yes
+
+	
+	trigger = { #what you need to be true, in order for event to fire_only_once
+	 tag = POL
+
+	}
+	
+	option = {
+	   name = dzg.0.a
+
+		DZG = { 
+		transfer_state = 766 
+		}
+
+
+			
+	}
+
+	#what the option will do
+
+
+
+	
+	
+	
+}

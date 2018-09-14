@@ -1,0 +1,45 @@
+﻿add_namespace = tnm
+
+#Template
+
+country_event = {
+    id = tnm.5
+	title = tnm.5.t
+	desc = tnm.5.d
+	picture = "GFX_report_event_tnm0"
+	
+	
+ mean_time_to_happen = {
+	    days = 1
+    }
+	
+	
+	fire_only_once = yes
+
+	
+	trigger = { #what you need to be true, in order for event to fire_only_once
+	tag = TNM
+	has_full_control_of_state = 353
+	has_full_control_of_state = 354
+	}
+	
+	option = {
+	   name = tnm.5.a
+			ARM = { 
+				white_peace = {
+					tag = TNM
+				} 
+			}
+			transfer_state = 353
+			transfer_state = 354
+			
+		}
+
+	#what the option will do
+
+
+
+	
+	
+	
+}
